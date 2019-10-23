@@ -1,6 +1,7 @@
-<div class="card">
+<div class="card" [ngStyle]="{ 'border-left':getNoteClass()}">
+  <!--add here edit, delete buttons-->
   <div>{{note.name}}</div>
   <div>{{note.text}}</div>
   <hr>
-  <div>{{note.date | date: 'EEEE, d MMM'}}</div>
+  <div>{{note.date | date: 'MMMM dd, hh:mm aa'}}</div>
 </div>

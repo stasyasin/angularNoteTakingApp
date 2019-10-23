@@ -15,4 +15,8 @@ export class NoteComponent implements OnInit {
   ngOnInit() {
   }
 
+  getNoteClass(): string {
+    return `4px solid ${this.note.color}`;
+  }
+
 }
