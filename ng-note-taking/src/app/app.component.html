@@ -1,6 +1,8 @@
 <div class="container text-center">
   <h1 class="text-center">{{ title }}</h1>
-  <app-add-note></app-add-note>
+  <div class="mb-3">
+    <app-add-note></app-add-note>
+  </div>
   <div *ngIf="!isLoaded">Loading...</div>
   <app-display-notes *ngIf="isLoaded" [notes]="notes"></app-display-notes>
 </div>

@@ -1,2 +1,8 @@
-<p>display-notes works!</p>
-{{notes | json}}
+<div class="row">
+  <div class="col-4 mb-1" *ngFor="let n of notes">
+    <app-note [note]="n"></app-note>
+  </div>
+</div>
+
+
+{{ notes | json }}

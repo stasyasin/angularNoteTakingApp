@@ -8,12 +8,14 @@ import { DisplayNotesComponent } from './display-notes/display-notes.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {NotesService} from "./shared/services/notes.service";
 import {HttpClientModule} from "@angular/common/http";
+import { NoteComponent } from './display-notes/note/note.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddNoteComponent,
-    DisplayNotesComponent
+    DisplayNotesComponent,
+    NoteComponent
   ],
   imports: [
     BrowserModule,

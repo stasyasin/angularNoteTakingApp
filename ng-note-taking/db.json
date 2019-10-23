@@ -2,35 +2,35 @@
   "notes": [
     {
       "name": "Note 1",
-      "text": "Text 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores delectus minima quos sequi sint voluptatum? Cumque sed tempore ullam!",
       "color": "Red",
       "date": "Wed Oct 23 2019 18:21:26 GMT+0200 (Central European Summer Time)",
       "id": 1
     },
     {
       "name": "Note 2",
-      "text": "Text 2",
+      "text": "Lorem20 Lorem20 Lorem20 Lorem20 Lorem20 Lorem20 ",
       "color": "Green",
       "date": "Wed Oct 23 2019 18:22:26 GMT+0200 (Central European Summer Time)",
       "id": 2
     },
     {
       "name": "Note 3",
-      "text": "Text 3",
+      "text": "Some Smart text",
       "color": "Yellow",
       "date": "Wed Oct 23 2019 18:23:26 GMT+0200 (Central European Summer Time)",
       "id": 3
     },
     {
       "name": "Note 4",
-      "text": "Text 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores delectus minima quos sequi sint voluptatum? Cumque sed tempore ullam!",
       "color": "Blue",
       "date": "Wed Oct 23 2019 18:24:26 GMT+0200 (Central European Summer Time)",
       "id": 4
     },
     {
       "name": "Note 1",
-      "text": "Text 2asdasdasd",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores delectus minima quos sequi sint voluptatum? Cumque sed tempore ullam!",
       "color": "Pink",
       "date": "Wed Oct 23 2019 18:27:26 GMT+0200 (Central European Summer Time)",
       "id": 5

@@ -9,7 +9,7 @@ import {Subscription} from "rxjs";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit, OnDestroy {
-  title = 'ng-note-taking';
+  title = 'Stanislav Notes';
   notes: Note[];
   isLoaded = false;
   sub1: Subscription;
