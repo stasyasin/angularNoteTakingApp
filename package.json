@@ -1,0 +1,24 @@
+{
+  "name": "angularnotetakingapp",
+  "version": "1.0.0",
+  "description": "Note taking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stasyasin/angularNoteTakingApp.git"
+  },
+  "keywords": [
+    "angular",
+    "note",
+    "taking"
+  ],
+  "author": "Stanislav Demianets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stasyasin/angularNoteTakingApp/issues"
+  },
+  "homepage": "https://github.com/stasyasin/angularNoteTakingApp#readme"
+}

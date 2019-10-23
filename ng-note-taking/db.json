@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "note": "Note 1",
+      "color": "orange"
+    },
+    {
+      "note": "Note 2",
+      "color": "green"
+    },
+    {
+      "note": "Note 3",
+      "color": "Blue"
+    }
+  ]
+}
