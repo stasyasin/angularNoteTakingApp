@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Note} from "../shared/models/note.model";
 
 @Component({
   selector: 'app-display-notes',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./display-notes.component.scss']
 })
 export class DisplayNotesComponent implements OnInit {
+  @Input()
+  notes: Note[] = [];
 
   constructor() { }
 

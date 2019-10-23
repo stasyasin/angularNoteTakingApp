@@ -1,16 +1,39 @@
 {
   "notes": [
     {
-      "note": "Note 1",
-      "color": "orange"
+      "name": "Note 1",
+      "text": "Text 1",
+      "color": "Red",
+      "date": "Wed Oct 23 2019 18:21:26 GMT+0200 (Central European Summer Time)",
+      "id": 1
     },
     {
-      "note": "Note 2",
-      "color": "green"
+      "name": "Note 2",
+      "text": "Text 2",
+      "color": "Green",
+      "date": "Wed Oct 23 2019 18:22:26 GMT+0200 (Central European Summer Time)",
+      "id": 2
     },
     {
-      "note": "Note 3",
-      "color": "Blue"
+      "name": "Note 3",
+      "text": "Text 3",
+      "color": "Yellow",
+      "date": "Wed Oct 23 2019 18:23:26 GMT+0200 (Central European Summer Time)",
+      "id": 3
+    },
+    {
+      "name": "Note 4",
+      "text": "Text 4",
+      "color": "Blue",
+      "date": "Wed Oct 23 2019 18:24:26 GMT+0200 (Central European Summer Time)",
+      "id": 4
+    },
+    {
+      "name": "Note 1",
+      "text": "Text 2asdasdasd",
+      "color": "Pink",
+      "date": "Wed Oct 23 2019 18:27:26 GMT+0200 (Central European Summer Time)",
+      "id": 5
     }
   ]
 }

@@ -1,19 +1,17 @@
 <div class="add-note-container">
   <div *ngIf="message.text" class="alert alert-{{ message.type }}">{{ message.text }}</div>
   <form #f="ngForm" (ngSubmit)="onSubmit(f)">
-    <div class="form-group" [ngClass]="{ 'has-error': name.invalid && name.touched }">
-      <label class="control-label" for="note-text">Note Text</label>
-      <input
-        type="text"
-        id="note-text"
-        class="form-control"
-        required
-        #name="ngModel"
-        name="name"
-        ngModel
-        [ngModel]="noteText"
-      />
-    </div>
+    <label class="control-label" for="note-text">Note Text</label>
+    <input
+      type="text"
+      id="note-text"
+      class="form-control"
+      required
+      #name="ngModel"
+      name="text"
+      ngModel
+      [ngModel]="noteText"
+    />
     <div class="form-group">
       <label class="control-label" for="note-color">Note Color</label>
       <select id="note-color" class="form-control" #name="ngModel" name="color" ngModel>
