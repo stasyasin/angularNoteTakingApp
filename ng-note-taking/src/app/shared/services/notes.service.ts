@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {Observable} from 'rxjs';
-import {BaseApi} from "../core/base-api";
-import {Note} from "../models/note.model";
+import { Observable } from 'rxjs';
+import { BaseApi } from '../core/base-api';
+import { Note } from '../models/note.model';
 
 @Injectable()
 export class NotesService extends BaseApi {
@@ -26,4 +26,9 @@ export class NotesService extends BaseApi {
   // getNoteById(id: string): Observable<Note> {
   //   return this.get(`notes/${id}`);
   // }
+
+  removeNote(note: Note): Observable<Note> {
+    //todo fix, retest
+    return this.delete('notes', note);
+  }
 }

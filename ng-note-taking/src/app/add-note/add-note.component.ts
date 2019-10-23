@@ -1,9 +1,9 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Message } from '../shared/models/message.model';
-import {Note} from "../shared/models/note.model";
-import {Subscription} from "rxjs";
-import {NotesService} from "../shared/services/notes.service";
+import { Note } from '../shared/models/note.model';
+import { Subscription } from 'rxjs';
+import { NotesService } from '../shared/services/notes.service';
 
 @Component({
   selector: 'app-add-note',
@@ -32,7 +32,6 @@ export class AddNoteComponent implements OnInit, OnDestroy {
       this.showSuccessMessage();
       this.noteText = '';
     });
-
   }
 
   private showSuccessMessage() {

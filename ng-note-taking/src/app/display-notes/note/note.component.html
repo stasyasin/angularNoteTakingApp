@@ -1,7 +1,10 @@
-<div class="card" [ngStyle]="{ 'border-left':getNoteClass()}">
-  <!--add here edit, delete buttons-->
-  <div>{{note.name}}</div>
-  <div>{{note.text}}</div>
-  <hr>
-  <div>{{note.date | date: 'MMMM dd, hh:mm aa'}}</div>
+<div class="card d-flex h-100" [ngStyle]="{ 'border-left': getNoteClass() }">
+  <div class="card-header text-left d-flex p-0 pl-1">
+    {{ note.name }}
+    <!--add here edit, delete buttons-->
+    <button class="btn btn-sm pull-right" (click)="editNote()"><i class="fa fa-pencil" title="edit"></i></button>
+    <button class="btn btn-sm pull-right" (click)="deleteNote()"><i class="fa fa-trash" title="remove"></i></button>
+  </div>
+  <div class="card-body text-left p-0 pl-1">{{ note.text }}</div>
+  <div class="card-footer text-left p-0 pl-1">{{ note.date | date: 'MMMM dd, hh:mm aa' }}</div>
 </div>

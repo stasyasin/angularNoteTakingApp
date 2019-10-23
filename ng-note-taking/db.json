@@ -34,6 +34,13 @@
       "color": "Pink",
       "date": "Wed Oct 23 2019 18:27:26 GMT+0200 (Central European Summer Time)",
       "id": 5
+    },
+    {
+      "name": "Note 1",
+      "text": "asd asd asd as da sd",
+      "color": "Black",
+      "date": "Wed Oct 23 2019 19:24:52 GMT+0200 (Central European Summer Time)",
+      "id": 6
     }
   ]
 }

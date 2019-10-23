@@ -1,7 +1,7 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
-import {NotesService} from "./shared/services/notes.service";
-import {Note} from "./shared/models/note.model";
-import {Subscription} from "rxjs";
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { NotesService } from './shared/services/notes.service';
+import { Note } from './shared/models/note.model';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,7 @@ export class AppComponent implements OnInit, OnDestroy {
   isLoaded = false;
   sub1: Subscription;
 
-  constructor(private notesService: NotesService) { }
+  constructor(private notesService: NotesService) {}
 
   ngOnInit() {
     this.sub1 = this.notesService.getNotes().subscribe((notes: Note[]) => {
